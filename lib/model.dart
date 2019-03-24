@@ -1,8 +1,8 @@
 class Model {
 
   int mal_id;
+  int rank;
   String title;
-  String rank;
   String url;
   String image_url;
   String type;
@@ -13,9 +13,10 @@ class Model {
   int score;
 
   Model(
-    this.mal_id,
-    this.title,
+    this.mal_id, 
     this.rank,
+    this.title,
+    this.url,
     this.image_url,
     this.type,
     this.episodes,
@@ -24,5 +25,5 @@ class Model {
     this.members,
     this.score
   );
-
+  
 }
