@@ -21,11 +21,17 @@ class _MainItemState extends State<MainItem> {
       child: Card(
         child: CustomWidget(
           image: model.image_url,
+          episode: model.episodes.toString(),
+          title: model.title,
+          type: model.type,
+          startDate: model.start_date,
+          endDate: model.end_date == null ? "n/a" : model.end_date,
         ),
       ),
     );
   }
 }
+
 
 class CustomWidget extends StatelessWidget {
   String image, title, type, episode, startDate, endDate;
@@ -47,6 +53,19 @@ class CustomWidget extends StatelessWidget {
                 height: 100.0,
                 fit: BoxFit.cover,
               ),
+            )
+          ),
+          SizedBox(
+            width: 5.0,
+          ),
+          Expanded(
+            child: Column(
+              children: <Widget>[
+                Text(title),
+                Text(type),
+                Text(episode),
+                Text(startDate + "-" + endDate)
+              ],
             )
           )
         ],
