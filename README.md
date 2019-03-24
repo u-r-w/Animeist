@@ -1,6 +1,8 @@
 # flutterdemo
 
-A new Flutter project.
+![screen list](https://github.com/umar2731/Animeist/blob/master/Screenshot%202019-03-24%2019.03.58.png)
+![screen list](https://github.com/umar2731/Animeist/blob/master/Screenshot%202019-03-24%2019.04.20.png)
+
 
 ## Getting Started
 
