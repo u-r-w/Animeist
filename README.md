@@ -1,8 +1,6 @@
-# flutterdemo
+# Flutter Demo
 
-<img src="./screenshot/lists-screen.png" width="150">
-<img src="./screenshot/details-screen.png" width="150">
-
+<img src="./screenshot/lists-screen.png" width="150"> <img src="./screenshot/details-screen.png" width="150">
 
 ## Getting Started
 
