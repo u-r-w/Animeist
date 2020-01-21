@@ -1,7 +1,7 @@
 # flutterdemo
 
-![screen list](https://github.com/umar2731/Animeist/blob/master/Screenshot%202019-03-24%2019.03.58.png)
-![screen list](https://github.com/umar2731/Animeist/blob/master/Screenshot%202019-03-24%2019.04.20.png)
+<img src="./screenshot/lists-screen.png" width="150">
+<img src="./screenshot/details-screen.png" width="150">
 
 
 ## Getting Started
